@@ -26,3 +26,19 @@
 .header a:hover {
     color: #b71c1c;
 }
+
+@media (max-width: 480px){
+    .header span {
+        font-size: 1.5rem;
+    }
+    .header a {
+        font-size: 0.75rem;
+        padding-inline: 0.75rem;
+    }
+}
+
+@media (max-width: 380px){
+    .header a {
+        font-size: 0.5rem;
+    }
+}
