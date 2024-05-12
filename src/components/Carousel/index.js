@@ -4,7 +4,7 @@ import './carousel.css';
 function Carousel({ children }){
     var settings = {
         dots: false,
-        infinite: false,
+        infinite: true,
         speed: 500,
         centerMode: false,
         variableWidth: true,

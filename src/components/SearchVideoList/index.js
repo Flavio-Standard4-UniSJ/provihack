@@ -3,7 +3,7 @@ import VideoList from '../VideoList';
 import styles from './SearchVideoList.module.css';
 
 function SearchVideoList({ videos }){
-    const [searchText, setSearchText] = useState("vamos flamengo");
+    const [searchText, setSearchText] = useState("");
     const foundVideos = filterVideos(videos, setSearchText);
 
     function filterVideos(videos, setSearchText){

@@ -6,7 +6,8 @@ export const categories = [
     "vamos flamengo",
     "anão estadual",
     "palmeiras não tem mundial",
-    "nen-C"
+    "timinho",
+    "não ganha nada"
   ];
   
   export function filterCategory(id){
