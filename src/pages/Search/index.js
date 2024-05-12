@@ -7,10 +7,12 @@ import SearchVideoList from '../../components/SearchVideoList';
 import videos from '../../json/videos.json';
 
 import styles from './Search.module.css';
+import ScrollToTopButton from '../../components/ScrollToTopButton';
 
 function Search(){
     return (
         <>
+        <ScrollToTopButton />
         <Header />
         <Banner image="assistir" />
         <Container>
